@@ -29,3 +29,23 @@ Variance is the average of squared distance of the data values from mean
 # Standard Deviation
 square root of variance is standard deviation<br>
 it is needed so that the unit of data and dispersion becomes same
+# Covariance
+when we are dealing with large dataset, we should be able to understand about how and what manner two or more variables interact with each other<br>
+Example: distance covered by a car vs Fuel efficiency
+
+So, Covariance measures the **strength of the linear relationship** betweeen two **numerical** random variables X and Y
+- A positive covariance indicates positive relationship
+- Negative covariance indicates negative relationship
+- covariance is 0 if both variables are unrelated
+
+## Limitiations of Covariance
+- It is difficult to judge the strength of the relationship(how strong/weak a relation is) from the covariance
+- interpreting the value of covariance is purely subjective to the problem you are dealing with
+- Basically Covariance just tells us whether the relationship is positive or negative
+
+### Question: How to determine the strength(how strongly two variables are related) of the relationship?
+### Answer: Coefficient of Correlation / pearson Coefficient of Correlation / Correlation
+
+- Coefficient of Correlation / pearson Coefficient of Correlation / Correlation gives the strength and direction of **linear relationship** between two **numerical variables**
+- Correlation is simply covarince divided by standard deviation of the variables X and Y
+- Its range is -1 <= r <= +1 (the closer the value is from +1 or -1, the strong the relation is) 
